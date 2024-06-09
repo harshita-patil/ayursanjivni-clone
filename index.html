@@ -1,0 +1,1218 @@
+<style>
+    .alignLeft {
+        padding-left: 10px;
+    } 
+    
+    .alignRight {
+        padding-right: 10px;
+    }
+    
+    .Width100per {
+        width: 100%;
+    }
+    
+    
+    .Width90per {
+         width: 91%; 
+    }
+    
+    .BorderBottom {
+        border-bottom: 1px solid black;
+    }
+    
+    .BorderLeft {
+        border-left: 1px solid black;
+    }
+    
+    .BorderRight {
+        border-right: 1px solid black;
+    }
+    
+    .BorderTop {
+        border-top: 1px solid black;
+    }
+    
+    .Font22Size {
+        font-size: 28px;
+    }
+    
+    .Font18Size {
+        font-size: 18px;
+    }
+    
+    .Width95per {
+        width: 95%;
+    }
+    
+    .Width50per {
+        width: 50%;
+    }
+    
+    .Width25per {
+        width: 25%;
+    }
+    
+    .Width33per {
+        width: 33%;
+    }
+    
+    .Width35per {
+        width: 35%;
+    }
+    
+    .aligncenter {
+        text-align: center
+    }
+    
+    .alignright {
+        text-align: right;
+    }
+    
+    .verticalalignbottom {
+        vertical-align: bottom;
+    }
+    
+    /* .alignleft {
+        text-align: left;
+    }
+     */
+    .height28px {
+        height: 28px;
+    }
+    
+    .height40px {
+        height: 30px;
+    }
+    
+    .height50px {
+        height: 50px;
+    }
+    
+    .width30per {
+        width: 30%;
+    }
+    
+    .Width40per {
+        width: 40%;
+    }
+    
+    .Width60per {
+        width: 60%;
+    }
+    
+    .width20per {
+        width: 27%;
+    }
+    
+    .width15per {
+        width: 15%;
+    }
+    
+    .font14px {
+        font-size: 13px;
+    }
+    
+    .font15px {
+        font-size: 15px;
+    }
+    
+    .font16px {
+        font-size: 16px;
+    }
+    .font14new{
+        font-size: 14px;
+    }
+    .font12px {
+        font-size: 12px;
+    }
+    .font17px {
+        font-size: 17px;
+    }
+    .font22px {
+        font-size: 20px;
+    }
+    .fontStyle {
+        font: 15px Courier New
+    }
+    
+    .biggerfontStyle {
+        font: 16px Courier New
+    }
+    
+    .height100px {
+        height: 100px;
+    }
+    
+    .Width10per {
+        width: 7%;
+    }
+    
+    .Width80per {
+        width: 80%;
+    }
+    
+    .Width75per {
+        width: 75%;
+    }
+    
+    .Width70per {
+        width: 70%;
+    }
+    
+    table {
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    
+    .fontsmall {
+        font-size: 11px;
+    }
+    
+    .upperCase {
+        text-transform: uppercase;
+    }
+    
+    td {
+        padding: 0px;
+        word-break: keep-all;
+        white-space: nowrap;
+    }
+    
+    /* .alignleft {
+        float: left;
+    }
+     */
+    .textalignleft {
+        text-align: left;
+    }
+    
+    .width30per {
+        width: 35%
+    }
+    
+    .verticalAlignTop {
+        vertical-align: top;
+    }
+    
+    .textalignright {
+        text-align: right;
+    }
+    
+    .fontBreakWord {
+        word-wrap: break-word;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .lrFont {
+        font: 17px;
+    }
+    
+    .height20px {
+        height: 20px;
+    }
+    
+    .height18px {
+        height: 15px;
+    }
+    
+    .height25px {
+        height: 25px;
+    }
+    
+    .height22px {
+        height: 23px;
+    }
+    
+    .height30px {
+        height: 30px;
+    }
+    
+    .paddingLeftLabel {
+         padding-left: 5px; 
+    }
+    .paddingLeftLabel3px {
+         padding-left: 3px; 
+    }
+    
+    .paddingRightLabel {
+         padding-right: 5px; 
+    }
+    
+    .pageBreakNeeded{
+        word-wrap: none;
+        word-break: break-all;
+        white-space: normal;
+    }
+    
+    .ui-autocomplete {
+        max-height: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: default;
+        z-index: 9999;
+        max-width: 150px;
+    }
+    
+    .confirm {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      min-width: 370px;
+      max-width: 370px;
+      height: 250px;
+      background: #E2E2E2;
+      border-radius: 10px;
+      padding-top: 50px;
+      margin: 0;
+      border-top: 1px solid white;
+      animation: fade 1s ease 1 forwards;
+      
+    }
+    
+    .ChargesTable tr td:first-child {
+        vertical-align: text-top;
+        width: 59%;
+    }
+    .ChargesTable tr td:last-child {
+        vertical-align: text-top;
+        width: 41%;
+    }
+    .sgstText, .cgstText, .igstText{
+        display: none;
+    }
+    .ellipsis {
+        max-width: 85px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    </style>
+    <table class="Width90per" style="position: absolute; top: 10px; margin-left: 27px;">
+        <tbody>
+            <tr>
+                <td class="pageBreakNeeded aligncenter Width100per" colspan="2">
+                    <table style="width: 100%">
+                        <tr>
+                            <td width="20%"><img src="" class="companyLogo hide" style="width:100px"></td>
+                            <td style="padding-right: 10%">
+                                <span class="font22px bold" data-account='name'><sup>&reg;</sup></span><br>
+                                <span class="rectusHideHardCoded pageBreakNeeded font14px" data-account='address'></span><br>
+                                <span class="alignLeft">Mobile No : </span> 
+                                <span data-account='branchMobileNo'></span>/<span data-account='branchMobileNo2'></span>
+                                <span class="alignLeft">GST :</span> 
+                                <span data-account='gstn'></span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="verticalAlignTop">
+                    <!-- Main Content Starts Here -->
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td colspan="2" class="Width100per">
+                                    <table class="Width100per BorderTop">
+                                        <tr>
+                                            <td class="Width50per BorderBottom BorderRight BorderLeft paddingLeftLabel3px">
+                                                <span data-selector="bookingDate" class="font14px"></span>&nbsp; <span class=" pageBreakNeeded font14px" data-lr='date'></span>
+                                            </td>
+                                            <td class="pageBreakNeeded  Width30per BorderBottom paddingLeftLabel Width50per">
+                                                <span data-selector="lrNumber" class="font14px"></span>&nbsp; <span class="bold pageBreakNeeded" data-lr='number' style="font-size: 18px;"></span>
+                                            </td> 
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="upperCase  Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="sourceBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrSource'></span><span class="bold  font14px"></span>
+                                                </td>
+                                                <td class=" upperCase  Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="destinationBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrDestination'></span><span class="bold font14px" data-lr='DestinationNumber'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px BorderLeft ellipsis">
+                                                    <span class=" paddingLeftLabel3px font14px" data-selector="consignorname"></span> 
+                                                    <span class="font14px pageBreakNeeded" data-consignor="name"></span>
+                                                </td>
+                                                <td class="height20px  BorderLeft ellipsis">
+                                                    <span class=" paddingLeftLabel3px font14px" data-selector="consigneename"></span> 
+                                                    <span class="font14px pageBreakNeeded" data-consignee="name"></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>	
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px font14px BorderLeft"><span class="paddingLeftLabel3px font14px"
+                                                data-selector="mobilenumber"></span> <span class="alignLeft"
+                                                data-consignor='number'></span></td>
+                                                <td class="height20px font14px BorderLeft"><span
+                                                class="paddingLeftLabel3px font14px" data-selector="mobilenumber"></span> <span
+                                                class="alignLeft" data-consignee='number'></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2"
+                                                    class="Width50per height20px BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignor='gstn'></span>
+                                                </td>
+                                                
+                                                <td
+                                                    class="height20px BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignee='gstn'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop" width="68%" colspan="2">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr style="height: 80px;">
+                                                <td class="verticalAlignTop BorderLeft" width="68%">
+                                                    <table class="Width100per">
+                                                        <thead>
+                                                            <tr>
+                                                                <th data-selector="consignmentQuantity"
+                                                                    style="border-bottom: 1px solid"
+                                                                    class="aligncenter font14px paddingLeft"></th>
+                                                                <th colspan="3" class="aligncenter font14px upperCase"
+                                                                    data-selector="description"
+                                                                    style="border-bottom: 1px solid; border-left: 1px solid;"></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td data-consignmentquantity="dynamic"
+                                                                    class="width20  aligncenter font14px"></td>
+                                                                <td data-consignmentpackingtype='dynamic'
+                                                                    class="width25  aligncenter paddingRight font14px"></td>
+                                                                <td data-consignmentseperator="dynamic"
+                                                                    class="Width10per  textalignleft font14px"></td>
+                                                                <td data-consignmentsaidtocontain="dynamic"
+                                                                    class="Width40per textalignleft  paddingLeft font14px"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="verticalAlignTop font14px" width="40%">
+                                                     <table class="Width100per" >
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                    <span data-selector="invoiceNumber"></span>&nbsp;<span class=""
+                                                                    data-lr="consignorInvoiceNo"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="declaredValue"></span>&nbsp;<span class=""
+                                                                data-lr="decalredValue"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="actualWeight"></span> <span
+                                                                data-lr="actualWeightConsignor"></span>
+                                                                <span data-selector="chargedWeight" style="padding-left: 18px;"></span> <span
+                                                                data-lr="chargedWeightConsignor"></span>
+    
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="deliveryAt"></span> <span
+                                                                data-lr="deliveryTo"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop Width100per font14new" colspan="2">
+                                    <table class="Width100per">
+                                        
+                                        <tr>
+                                            <td class="paddingLeftLabel3px BorderLeft BorderBottom BorderTop" width="68%">
+                                                <span data-selector="remark"></span>
+                                                <span data-lr='remark'></span>
+                                            </td>
+                                            <td class="BorderBottom BorderLeft BorderTop" width="40%">
+                                                <table class="Width100per">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="BorderRight bold paddingLeftLabel3px">
+                                                                <span class="alignright"></span>
+                                                                <span data-selector="serviceTaxPaidBy"></span> 
+                                                                <span data-lr='taxPaidBy'></span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="verticalAlignTop width20per">
+                    <table class="Width100per BorderTop ">
+                        <tr>
+                            <td class="BorderLeft BorderRight" height="23px">
+                                <span data-selector="freighttype"></span>
+                                <span class="bold" data-lr='lrType' style="font-size: 18px;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="Width100per" height="150px">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft verticalAlignTop">
+                                <table class="Width100per ChargesTable">
+                                        <tbody>
+                                            <tr>
+                                                <td width="60%" class=" paddingLeftLabel3px  pageBreakNeeded width50px BorderBottom   BorderTop " data-chargename='dynamic'></td>
+                                                <td width="40%" class=" alignRight alignright pageBreakNeeded width30px  BorderBottom   BorderLeft BorderTop" data-chargevalue='dynamic'></td>
+                                            </tr>
+                                            <tr class="sgstText">
+                                                <td class=" font17px paddingLeftLabel3px height18px BorderRight BorderTop" data-selector="sgst"></td>
+                                                <td data-gst='sgst'
+                                                    class="font17px textalignright BorderTop alignRight">
+                                                </td>
+                                            </tr >
+                                            <!-- please put here cgst attribute when required -->
+                                            <tr class="cgstText" >
+                                                <td class=" cgstText font17px paddingLeftLabel3px height18px BorderRight BorderTop "
+                                                data-selector="cgst"></td>
+                                                <td data-gst='cgst'
+                                                    class="font17px textalignright BorderTop alignRight">
+                                                </td>
+                                            </tr>
+                                            <!-- please put here igst attribute when required -->
+                                            <tr class="igstText">
+                                                <td class="igstText font17px paddingLeftLabel3px height18px BorderRight BorderBottom BorderTop " data-selector="igst" ></td>
+                                                <td data-gst='igst' class="font17px textalignright BorderTop BorderBottom alignRight"></td>
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft BorderTop verticalAlignTop">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td width="59%" class="font17px bold height18px BorderBottom paddingLeftLabel"
+                                                    data-selector="grandTotal"></td>
+                                                <td class="font17px textalignright bold BorderBottom BorderLeft alignRight">
+                                                    <span data-lr="grandTotal">0</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class=" alignLeft BorderBottom BorderRight "
+                                                    style="width: 20%; height:18px; font-size: 14px;"><span data-executive='name'></span>&nbsp;<span data-time='current'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width50per textalignleft alignLeft">
+                                <span>Goods booked At Owner's risk and said to contain basis. </span>
+                            </td>
+                            <td class="Width50per textalignright alignRight">
+                                <span>Non Negotiable</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width100per aligncenter">
+                                <span style="font-size: 13px;">Ewaybill No. :</span><span class=" " data-lr='EWayBillNo'></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table class="Width90per" style="position: absolute; top: 375px; margin-left: 27px;">
+        <tbody>
+            <tr>
+                <td class="pageBreakNeeded aligncenter Width100per" colspan="2">
+                    <table style="width: 100%">
+                        <tr>
+                            <td width="20%"><img src="" class="companyLogo hide" style="width:100px"></td>
+                            <td style="padding-right: 10%">
+                                <span class="font22px bold" data-account='name'><sup>&reg;</sup></span><br>
+                                <span class="rectusHideHardCoded pageBreakNeeded font14px" data-account='address'></span><br>
+                                <span class="alignLeft">Mobile No : </span> 
+                                <span class=" " data-account='branchMobileNo'></span>/<span class=" " data-account='branchMobileNo2'></span>
+                                <span class="alignLeft">GST :</span> 
+                                <span class=" " data-account='gstn'></span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="verticalAlignTop">
+                    <!-- Main Content Starts Here -->
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td colspan="2" class="Width100per">
+                                    <table class="Width100per BorderTop">
+                                        <tr>
+                                            <td class="Width50per BorderBottom BorderRight BorderLeft paddingLeftLabel3px">
+                                                <span data-selector="bookingDate" class="font14px"></span>&nbsp; <span class=" pageBreakNeeded font14px"
+                                                data-lr='date'></span>
+                                            </td>
+                                            <td class="pageBreakNeeded  Width30per BorderBottom paddingLeftLabel">
+                                                <span data-selector="lrNumber" class="font14px"></span>&nbsp; <span class="bold pageBreakNeeded"
+                                                data-lr='number' style="font-size: 18px;"></span>
+                                            </td> 
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="upperCase  Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="sourceBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrSource'></span><span class="bold pageBreakNeeded font14px"></span>
+                                                </td>
+                                                <td class=" upperCase  Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="destinationBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrDestination'></span><span class="bold font14px" data-lr='DestinationNumber'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px BorderLeft ellipsis"><span
+                                                class=" paddingLeftLabel3px font14px" data-selector="consignorname"></span> <span class=" font14px pageBreakNeeded"
+                                                data-consignor="name"></span></td>
+                                                <td class="height20px  BorderLeft ellipsis"><span
+                                                class=" paddingLeftLabel3px font14px" data-selector="consigneename"></span> <span class=" font14px pageBreakNeeded"
+                                                data-consignee="name"></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px font14px BorderLeft"><span class="paddingLeftLabel3px font14px"
+                                                data-selector="mobilenumber"></span> <span class="alignLeft"
+                                                data-consignor='number'></span></td>
+                                                <td class="height20px font14px BorderLeft"><span
+                                                class="paddingLeftLabel3px font14px" data-selector="mobilenumber"></span> <span
+                                                class="alignLeft" data-consignee='number'></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2" class="height20px Width50per BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignor='gstn''></span>
+                                                </td>
+                                                
+                                                <td class="height20px BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignee='gstn'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop" width="68%" colspan="2">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr style="height: 80px;">
+                                                <td class="verticalAlignTop BorderLeft" width="68%">
+                                                    <table class="Width100per">
+                                                        <thead>
+                                                            <tr>
+                                                                <th data-selector="consignmentQuantity"
+                                                                    style="border-bottom: 1px solid"
+                                                                    class="aligncenter font14px paddingLeft"></th>
+                                                                <th colspan="3" class="aligncenter font14px upperCase"
+                                                                    data-selector="description"
+                                                                    style="border-bottom: 1px solid; border-left: 1px solid;"></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td data-consignmentquantity="dynamic" class="width20  aligncenter font14px"></td>
+                                                                <td data-consignmentpackingtype='dynamic' class="width25  aligncenter paddingRight font14px"></td>
+                                                                <td data-consignmentseperator="dynamic" class="Width10per  textalignleft font14px"></td>
+                                                                <td data-consignmentsaidtocontain="dynamic" class="Width40per textalignleft  paddingLeft font14px"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="verticalAlignTop font14px" width="40%">
+                                                     <table class="Width100per" >
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                    <span data-selector="invoiceNumber"></span>&nbsp;<span class=""
+                                                                    data-lr="consignorInvoiceNo"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="declaredValue"></span>&nbsp;<span class=""
+                                                                data-lr="decalredValue"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2"
+                                                                class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="actualWeight"></span> <span
+                                                                data-lr="actualWeightConsignor"></span>
+                                                                <span data-selector="chargedWeight" style="padding-left: 18px;"></span> <span
+                                                                data-lr="chargedWeightConsignor"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class=" BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="deliveryAt"></span> <span
+                                                                data-lr="deliveryTo"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop Width100per font14new" colspan="2">
+                                    <table class="Width100per">
+                                        
+                                        <tr>
+                                            <td class="paddingLeftLabel3px BorderLeft BorderBottom BorderTop" width="68%">
+                                                <span data-selector="remark"></span>
+                                                <span data-lr='remark'></span>
+                                            </td>
+                                            <td class="BorderBottom BorderLeft BorderTop" width="40%">
+                                                <table class="Width100per">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="BorderRight bold paddingLeftLabel3px">
+                                                                <span class="alignright"></span>
+                                                                <span data-selector="serviceTaxPaidBy"></span> 
+                                                                <span data-lr='taxPaidBy'></span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="verticalAlignTop width20per">
+                    <table class="Width100per BorderTop ">
+                        <tr>
+                            <td class="BorderLeft BorderRight" height="23px">
+                                <span data-selector="freighttype"></span>
+                                <span class="bold" data-lr='lrType' style="font-size: 18px;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="Width100per" height="150px">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft verticalAlignTop">
+                                <table class="Width100per ChargesTable">
+                                        <tbody>
+                                            <tr>
+                                                <td width="60%" class=" paddingLeftLabel3px  pageBreakNeeded width50px BorderBottom   BorderTop " data-chargename='dynamic'></td>
+                                                <td width="40%" class=" alignRight alignright pageBreakNeeded width30px  BorderBottom   BorderLeft BorderTop" data-chargevalue='dynamic'></td>
+                                            </tr>
+                                            <tr class="sgstText">
+                                                <td  data-selector="sgst"
+                                                    class="font17px paddingLeftLabel3px height18px BorderRight BorderTop ">0</td>
+                                                <td data-gst='sgst'
+                                                    class="font17px textalignright BorderTop alignRight">0
+                                                </td>
+                                            </tr >
+                                            <!-- please put here cgst attribute when required -->
+                                            <tr class="cgstText">
+                                                <td data-selector="cgst" class="font17px paddingLeftLabel3px height18px BorderRight BorderTop "></td>
+                                                <td data-gst='cgst' class="font17px textalignright BorderTop alignRight">0
+                                                </td>
+                                            </tr>
+                                            <!-- please put here igst attribute when required -->
+                                            <tr class="igstText">
+                                                <td data-selector="igst" class="font17px paddingLeftLabel3px height18px BorderRight BorderBottom BorderTop "></td>
+                                                <td data-gst='igst' class="font17px textalignright BorderTop BorderBottom alignRight">0</td>
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft BorderTop verticalAlignTop">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td width="59%" class="font17px bold height18px BorderBottom paddingLeftLabel" data-selector="grandTotal"></td>
+                                                <td class="font17px textalignright bold BorderBottom BorderLeft alignRight">
+                                                    <span data-lr="grandTotal">0</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class=" alignLeft BorderBottom BorderRight "
+                                                    style="width: 20%; height:18px; font-size: 14px;"><span data-executive='name'></span>&nbsp;<span data-time='current'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width50per textalignleft alignLeft">
+                                <span>Goods booked At Owner's risk and said to contain basis. </span>
+                            </td>
+                            <td class="Width50per textalignright alignRight">
+                                <span>Non Negotiable</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width100per aligncenter">
+                                <span style="font-size: 13px;">Ewaybill No. :</span><span class=" " data-lr='EWayBillNo'></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table class="Width90per" style="position: absolute; top: 750px; margin-left: 27px;">
+        <tbody>
+            <tr>
+                <td class="pageBreakNeeded aligncenter Width100per" colspan="2">
+                    <table style="width: 100%">
+                        <tr>
+                            <td width="20%"><img src="" class="companyLogo hide" style="width:100px"></td>
+                            <td style="padding-right: 10%">
+                                <span class="font22px bold" data-account='name'><sup>&reg;</sup></span><br>
+                                <span class="rectusHideHardCoded pageBreakNeeded font14px" data-account='address'></span><br>
+                                <span class="alignLeft">Mobile No : </span> 
+                                <span data-account='branchMobileNo'></span>/<span class=" " data-account='branchMobileNo2'></span>
+                                <span class="alignLeft">GST :</span> 
+                                <span data-account='gstn'></span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="verticalAlignTop">
+                    <!-- Main Content Starts Here -->
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td colspan="2" class="Width100per">
+                                    <table class="Width100per BorderTop">
+                                        <tr>
+                                            <td class="Width50per BorderBottom BorderRight BorderLeft paddingLeftLabel3px">
+                                                <span data-selector="bookingDate" class="font14px"></span>&nbsp; <span class=" pageBreakNeeded font14px"
+                                                data-lr='date'></span>
+                                            </td>
+                                            <td class="pageBreakNeeded Width30per BorderBottom paddingLeftLabel">
+                                                <span data-selector="lrNumber" class="font14px"></span>&nbsp; <span class="bold pageBreakNeeded"
+                                                data-lr='number' style="font-size: 18px;"></span>
+                                            </td> 
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="upperCase Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="sourceBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrSource'></span><span class="bold font14px"></span>
+                                                </td>
+                                                <td class="upperCase Width50per height30px BorderLeft paddingLeftLabel3px pageBreakNeeded">
+                                                <span data-selector="destinationBranch" class="font14px"></span>&nbsp; <span class="bold font14px"
+                                                data-lr='lrDestination'></span><span class="bold font14px" data-lr='DestinationNumber'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px BorderLeft ellipsis"><span
+                                                class=" paddingLeftLabel3px font14px" data-selector="consignorname"></span> <span class=" font14px pageBreakNeeded"
+                                                data-consignor="name"></span></td>
+                                                <td class="height20px  BorderLeft ellipsis"><span
+                                                class=" paddingLeftLabel3px font14px" data-selector="consigneename"></span> <span class=" font14px pageBreakNeeded"
+                                                data-consignee="name"></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class="Width50per height20px font14px BorderLeft"><span class="paddingLeftLabel3px font14px"
+                                                data-selector="mobilenumber"></span> <span class="alignLeft"
+                                                data-consignor='number'></span></td>
+                                                <td class="height20px font14px BorderLeft"><span
+                                                class="paddingLeftLabel3px font14px" data-selector="mobilenumber"></span> <span
+                                                class="alignLeft" data-consignee='number'></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="height20px">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2" class="height20px Width50per BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignor='gstn'></span>
+                                                </td>
+                                                
+                                                <td class="height20px BorderBottom font14px BorderLeft">
+                                                    <span data-selector="gstNo" class="paddingLeftLabel3px"></span>&nbsp;
+                                                    <span data-consignee='gstn'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop" width="68%" colspan="2">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr style="height: 80px;">
+                                                <td class="verticalAlignTop BorderLeft" width="68%">
+                                                    <table class="Width100per">
+                                                        <thead>
+                                                            <tr>
+                                                                <th data-selector="consignmentQuantity"
+                                                                    style="border-bottom: 1px solid"
+                                                                    class="aligncenter font14px paddingLeft"></th>
+                                                                <th colspan="3" class="aligncenter font14px upperCase"
+                                                                    data-selector="description"
+                                                                    style="border-bottom: 1px solid; border-left: 1px solid;"></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td data-consignmentquantity="dynamic" class="width20  aligncenter font14px"></td>
+                                                                <td data-consignmentpackingtype='dynamic' class="width25  aligncenter paddingRight font14px"></td>
+                                                                <td data-consignmentseperator="dynamic" class="Width10per  textalignleft font14px"></td>
+                                                                <td data-consignmentsaidtocontain="dynamic" class="Width40per textalignleft  paddingLeft font14px"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="verticalAlignTop font14px" width="40%">
+                                                     <table class="Width100per" >
+                                                        <tr>
+                                                            <td colspan="2" class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="invoiceNumber"></span>&nbsp;<span class=""
+                                                                    data-lr="consignorInvoiceNo"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="declaredValue"></span>&nbsp;<span class=""
+                                                                data-lr="decalredValue"></span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="BorderBottom BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="actualWeight"></span> <span
+                                                                data-lr="actualWeightConsignor"></span>
+                                                                <span data-selector="chargedWeight" style="padding-left: 18px;"></span> <span
+                                                                data-lr="chargedWeightConsignor"></span>
+    
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class=" BorderLeft height20px paddingLeftLabel3px">
+                                                                <span data-selector="deliveryAt"></span> <span
+                                                                data-lr="deliveryTo"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="verticalAlignTop Width100per font14new" colspan="2">
+                                    <table class="Width100per">
+                                
+                                        <tr>
+                                            <td class="BorderLeft BorderBottom BorderTop paddingLeftLabel3px" width="68%">
+                                                <span data-selector="remark"></span>
+                                                <span data-lr='remark'></span>
+                                            </td>
+                                            <td class="BorderBottom BorderLeft BorderTop" width="40%">
+                                                <table class="Width100per">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="BorderRight bold paddingLeftLabel3px">
+                                                                <span class="alignright"></span>
+                                                                <span data-selector="serviceTaxPaidBy"></span> 
+                                                                <span data-lr='taxPaidBy'></span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="verticalAlignTop width20per">
+                    <table class="Width100per BorderTop ">
+                        <tr>
+                            <td class="BorderLeft BorderRight" height="23px">
+                                <span data-selector="freighttype"></span>
+                                <span class="bold" data-lr='lrType' style="font-size: 18px;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="Width100per" height="150px">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft verticalAlignTop">
+                                <table class="Width100per ChargesTable">
+                                        <tbody>
+                                            <tr>
+                                                <td width="60%" class=" paddingLeftLabel3px  pageBreakNeeded width50px BorderBottom   BorderTop " data-chargename='dynamic'></td>
+                                                <td width="40%" class=" alignRight alignright pageBreakNeeded width30px  BorderBottom   BorderLeft BorderTop" data-chargevalue='dynamic'></td>
+                                            </tr>
+                                            <tr class="sgstText">
+                                                <td  data-selector="sgst" class="font17px paddingLeftLabel3px height18px BorderRight BorderTop ">0</td>
+                                                <td data-gst='sgst' class="font17px textalignright BorderTop alignRight">0</td>
+                                            </tr>
+                                            <!-- please put here cgst attribute when required -->
+                                            <tr class="cgstText">
+                                                <td data-selector="cgst" class="font17px paddingLeftLabel3px height18px BorderRight BorderTop "></td>
+                                                <td data-gst='cgst' class="font17px textalignright BorderTop alignRight">0</td>
+                                            </tr>
+                                            <!-- please put here igst attribute when required -->
+                                            <tr  class="igstText">
+                                                <td data-selector="igst" class="font17px paddingLeftLabel3px height18px BorderRight BorderBottom BorderTop "></td>
+                                                <td data-gst='igst' class="font17px textalignright BorderTop BorderBottom alignRight">0</td>
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="Width100per">
+                        <tbody>
+                            <tr>
+                                <td class="Width100per BorderRight BorderLeft BorderTop verticalAlignTop">
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td width="59%" class="font17px bold height18px BorderBottom paddingLeftLabel" data-selector="grandTotal"></td>
+                                                <td class="font17px textalignright bold BorderBottom BorderLeft alignRight">
+                                                    <span data-lr="grandTotal">0</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <table class="Width100per">
+                                        <tbody>
+                                            <tr>
+                                                <td class=" alignLeft BorderBottom BorderRight "
+                                                    style="width: 20%; height:18px; font-size: 14px;"><span data-executive='name'></span>&nbsp;<span data-time='current'></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width50per textalignleft alignLeft">
+                                <span>Goods booked At Owner's risk and said to contain basis. </span>
+                            </td>
+                            <td class="Width50per textalignright alignRight">
+                                <span>Non Negotiable</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="Width100per verticalAlignTop font14new" colspan="2">
+                    <table class="Width100per BorderBottom BorderRight BorderLeft">
+                        <tr>
+                            <td class="Width100per aligncenter">
+                                <span style="font-size: 13px;"><span style="font-size: 13px;">Ewaybill No. :</span><span class=" " data-lr='EWayBillNo'></span></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Ayursanjivni</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 7%;
+            overflow: hidden;
+            background-color: rgb(4, 81, 4);
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .navi {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: rgb(4, 81, 4);
+            padding: 15px;
+        }
+
+        .navi ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navi ul li {
+            float: left;
+            padding-left: 20px;
+        }
+
+        .navi ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .header1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f7f7;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .header1 .icon {
+            display: flex;
+        }
+
+        .header1 .social-icons a {
+            color: white;
+            margin-right: 10px;
+        }
+
+        .bg-img {
+            background-image: url("D:\New folder\about-banner.png");
+            background-repeat: repeat;
+            background-position: center;
+            height: 200px;
+            background-color: rgba(3, 111, 70, 0.348);
+            background-blend-mode: multiply;
+
+        }
+
+        .img-content {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
+
+        .img-content1 {
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+        }
+
+        .img-content3 {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .center {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .images {
+            flex: 0 0 auto;
+            margin-right: 10px;
+            padding-top: 40px;
+        }
+
+        .images img {
+            width: 500px;
+            height: auto;
+        }
+
+        .text-alighment {
+            flex: 1;
+            word-spacing: 6px;
+            padding-top: 40px;
+        }
+
+        .text-alighment h1 {
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+            color: rgb(2, 82, 2);
+        }
+
+        .text-alighment p {
+            padding-bottom: 15px;
+            color: rgb(2, 82, 2);
+        }
+
+        .texts {
+            text-align: center;
+            font-size: x-large;
+            padding-bottom: 20px;
+        }
+
+        .texts1 {
+            text-align: center;
+        }
+
+        .design {
+            border: 1px transparent;
+            background-color: white;
+
+        }
+
+        .bgs {
+            background-color: rgb(2, 82, 2);
+            color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 0;
+        }
+
+
+        .btn-container {
+            display: flex;
+            justify-content: flex-end;
+
+            padding: 10px 0;
+
+        }
+
+        .btn {
+            background-color: rgb(12, 177, 39);
+            border-radius: 20px;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .card-link {
+            padding: 20px;
+            color: black;
+            width: 20px;
+        }
+
+        .setpadd {
+            padding-top: 50px;
+        }
+
+        .aligns {
+            padding-top: 30px;
+            color: rgb(2, 82, 2);
+            justify-content: center;
+            padding-left: 20%;
+            align-items: center;
+        }
+
+        /* .back{
+        background-color:rgb(2, 82, 2) ;
+        padding-bottom: 50px;
+    } */
+
+        .footer .container {
+            padding: 0%;
+            background-color: #0ce20c;
+
+            background-image: url("wave.jpg");
+
+        }
+
+        .social-icons {
+            padding-top: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="tel:+918432329371">+91 8432329371</a></li>
+            <li><a href="tel:+919011609371">+91 9011609371</a></li>
+            <li style="float: right; padding-right: 20%;"><a
+                    href="mailto:ayursanjivnipune@gmail.com">ayursanjivnipune@gmail.com</a></li>
+        </ul>
+    </header>
+
+    <!-- <div class="image">
+    <img src="Ayusanjivani__new_logo.png" alt="logo" height="100" width="240">
+</div> -->
+
+    <div class="header1">
+        <div class="icons">
+            <a href="#"><img src="D:\New folder\facebook-logo.png" alt="Facebook"></a>
+            <a href="#"><img src="D:\New folder\insta-logo.png" alt="Instagram"></a>
+            <a href="#"><img src="D:\New folder\whatsapp-logo.png" alt="WhatsApp"></a>
+        </div>
+
+
+
+        <div class="logo">
+            <img src="Ayusanjivani__new_logo.png" width="300" height="150" alt="Logo">
+        </div>
+        <a href="#" class="appointment-btn">Take Appointment</a>
+    </div>
+    </header>
+
+    <div class="navi">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#Panchkarma">Panchakarma</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="bg-img">
+        <p class="img-content">- AYURVEDIC TREATMENTS -</p>
+        <h1 class="img-content1">KNEE PAIN AND OSTEOARTHRITIS</h1>
+        <p class="img-content">Home >> Treatments >> Joint Disorder's >> Knee Pain</p>
+    </div>
+
+    <div>
+        <p class="img-content3"> DEFINITION | TYPES | CAUSES | SYMPTOMS | TREATMENTS | FAQ’S | TESTIMONIALS </p>
+    </div>
+
+    <div class="center">
+        <div class="images">
+            <img src="girl_knee.jpg" alt="Background Image">
+        </div>
+
+        <div class="text-alighment">
+            <h1>What is Knee Pain And Osteoarthritis?</h1>
+            <p>Are you experiencing knee pain and discomfort? At Ayusanjivani Ayurveda Clinic, located in the heart of
+                Kharadi, Pune, we offer holistic approaches to alleviate knee pain and manage osteoarthritis
+                effectively. Ayusanjivani Ayurveda Clinic is located in Kharadi, Pune, and specializes in Ayurvedic
+                treatments for various health conditions, including knee pain and osteoarthritis. Here are some common
+                approaches and therapies that an Ayurvedic clinic like Ayusanjivani may offer:</p>
+        </div>
+    </div>
+
+    <div class="jumbotron text-center">
+        <h1> Types of <b> Knee Pain and Osteoarthritis </b></h1>
+        <p>Experience Natural Healing at Ayusanjivani : Personalized Ayurvedic Solutions for Knee Pain and
+            Osteoarthritis</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="design">Osteoarthritis (OA)</h3>
+                    <p class="design">Osteoarthritis is a degenerative joint condition characterized by the gradual
+                        breakdown of cartilage in the knee joint, leading to pain and stiffness.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="design">Rheumatoid Arthritis (RA)</h3>
+                    <p class="design">Rheumatoid arthritis is an autoimmune condition that can affect multiple joints,
+                        including the knees, causing inflammation and pain.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="design">Traumatic Injuries</h3>
+                    <p class="design">Traumatic Injuries: Injuries like ligament tears or fractures can result in acute
+                        knee pain and may lead to long-term discomfort if not managed properly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgs">
+        <h2>Get a free<b> Assessment</b> Call </h2>
+        <pre style="color: white;">Ayurvedic treatment provides a comprehensive and natural approach to Knee Pain Treatment. To book an 
+appointment with our experienced Ayurvedic practitioners at Ayusanjivani Ayurveda Clinic in Kharadi, Pune.</pre>
+        <div class="btn-container">
+            <button class="btn">APPOINTMENT</button>
+        </div>
+    </div>
+
+    <section class="setpadd">
+        <div class="container">
+            <h2 style="color: rgb(2, 82, 2);">Causes of<b> Knee Pain and Osteoarthritis</b></h2>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            Osteoarthritis (OA)
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            The most prevalent cause of knee pain is osteoarthritis. It occurs due to the gradual wear
+                            and tear of the knee joint’s cartilage. As the cartilage deteriorates, the bones may rub
+                            against each other, leading to pain, stiffness, and reduced mobility.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            Rheumatoid Arthritis (RA)
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            In cases of rheumatoid arthritis, an autoimmune disorder, the body’s immune system attacks
+                            the synovium (lining of the membranes that surround the joints). This can result in
+                            inflammation, pain, and damage to the knee joint.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            Traumatic Injuries
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Knee pain can also result from traumatic injuries such as ligament tears, meniscus tears, or
+                            fractures. These injuries can cause acute pain and may lead to long-term issues if not
+                            treated promptly and effectively.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                            Overuse and Repetitive Stress
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Engaging in activities that involve repetitive knee movements, such as sports or certain
+                            occupations, can lead to overuse injuries. This includes conditions like patellar
+                            tendinitis, where the patellar tendon becomes inflamed.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="aligns">
+        <h2>Ayurvedic Treatments for Knee Pain and Osteoarthritis</h2>
+        <p>Experience Natural Healing at Ayusanjivani : Personalized Ayurvedic Solutions for Knee Pain and
+            Osteoarthritis</p>
+
+    </div>
+
+    <div class="center">
+        <div class="images">
+            <img src="knee1.jpg" alt="Background Image">
+        </div>
+
+        <div class="text-alighment">
+
+            <pre>At Ayusanjivani Ayurveda Clinic in Kharadi, Pune, we offer holistic and time-
+tested Ayurvedic treatments to alleviate knee pain and manage
+osteoarthritis. Our approach focuses on natural healing, personalized care,
+and traditional therapies. Here are some of the Ayurvedic treatments we
+provide:
+<b>1.Snehana (स्नेहन): </b> This treatment involves the application of medicated oils
+or ghee (clarified butter) to the affected knee joint. It helps reduce friction,
+improves joint mobility, and provides nourishment to the joint structures.
+        
+<b>2.Swedana (स्वेदन): </b> is a herbal steam therapy that helps relax the
+knee muscles and promotes blood circulation, reducing pain and stiffness. </pre>
+        </div>
+    </div>
+    <div>
+        <pre><b>3.Panchakarma Therapies (पंचकर्म चिकित्सा):</b> Panchakarma includes detoxification therapies that help remove toxins from the body. These therapies can be
+beneficial in managing inflammatory conditions associated with knee pain.
+
+<b>4.Vasti (वस्ति):</b> Vasti involves the administration of herbal enemas, which can help in reducing inflammation and pain in the knee joint.
+
+<b>5.Herbal Medications (आयुर्वेदिक दवाएँ):</b> Our Ayurvedic experts may prescribe herbal formulations that are tailored to your specific condition. These
+formulations help reduce inflammation and promote joint health. </pre>
+    </div>
+
+    <div class="back">
+        <h1 style="text-align: center; background-color: rgb(2, 82, 2); color: white; "><strong>FAQ's</strong></h1>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    How long does Ayurvedic treatment take to show results for knee pain
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    The most prevalent cause of knee pain is osteoarthritis. It occurs due to the gradual wear and tear
+                    of the knee joint’s cartilage. As the cartilage deteriorates, the bones may rub against each other,
+                    leading to pain, stiffness, and reduced mobility.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Are Ayurvedic treatments safe for long-term use?
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    In cases of rheumatoid arthritis, an autoimmune disorder, the body’s immune system attacks the
+                    synovium (lining of the membranes that surround the joints). This can result in inflammation, pain,
+                    and damage to the knee joint.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Do I need to follow a specific diet during Ayurvedic treatment for knee pain?
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    Knee pain can also result from traumatic injuries such as ligament tears, meniscus tears, or
+                    fractures. These injuries can cause acute pain and may lead to long-term issues if not treated
+                    promptly and effectively.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    Can Ayurveda help with knee pain due to sports injuries?
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    Engaging in activities that involve repetitive knee movements, such as sports or certain
+                    occupations, can lead to overuse injuries. This includes conditions like patellar tendinitis, where
+                    the patellar tendon becomes inflamed.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2 style="text-align: center; color: rgb(2, 82, 2); padding-top: 40px;">Patient's <b>Testimonial</h2></b>
+            </h2>
+        </div>
+        <div
+            style="background-color: transparent; background-color: rgba(232, 226, 226, 0.946); border: 0cm; border-radius: 20px; ">
+            <pre><b>"After years of struggling with knee pain , i desided to seek help at Ayursanjivni Ayurveda Clinic in Kharadi , pune. I was amazed by the personalized
+care and tranditional Ayurvedic treatment. Over six months of treatment , my knee pain significantly reduced , and i can now my daily walks
+                                                                  pain-free.</b> </pre>
+
+            <h2> <b>
+                    <center> -Aarti Desai </center> <b></h2>
+            <p>
+                <center> Viman Nagar, Pune </center>
+            </p>
+
+
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="index.html"><img src="Ayusanjivani__new_logo.png" alt=""
+                                class="img-fluid logo-footer"></a>
+                        <div class="footer-about">
+                            <p>+525652 </p>
+                            <p>+552555</p>
+                            <div class="icons">
+                                <a href="#"><img src="D:\New folder\facebook-logo.png" alt="Facebook"></a>
+                                <a href="#"><img src="D:\New folder\insta-logo.png" alt="Instagram"></a>
+                                <a href="#"><img src="D:\New folder\whatsapp-logo.png" alt="WhatsApp"></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="useful-link">
+                            <h2>Useful Links</h2>
+                            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+                            <div class="use-links">
+                                <li><a href=""><i class="fa-solid fa-angles-right"></i> Vamana</a></li>
+                                <li><a href=""><i class="fa-solid fa-angles-right"></i> vivechana</a></li>
+                                <li><a href=""><i class="fa-solid fa-angles-right"></i> Basti</a></li>
+                                <li><a href=""><i class="fa-solid fa-angles-right"></i> Nasya</a></li>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="social-links">
+                            <h2></h2>
+                            <div class="social-icons">
+
+                                <li><a href=""><i class="fa-brands fa-facebook-f"></i> Aboutus</a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram"></i> blog</a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin-in"></i> contact</a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="address">
+                            <h2>Address</h2>
+
+                            <div class="address-links">
+                                <li class="address1"><i class="fa-solid fa-location-dot"></i> Kharadi Branch:
+                                    1st Floor, Vitthal Heights, Opp. Radisson Hotel, Bypass Road, Kharadi, Pune - 411014
+                                    Kerala 679338</li> <br>
+
+                                <li class="address1"><i class="fa-solid fa-location-dot"></i> Wagholi Branch:
+                                    Shop No 207, Gat No.1114, Siddhi Complex, PMT Bus Stop, Kesanand Phata, Wagholi -
+                                    412207</li>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
